@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mongoDB-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+}
+
+.mongoDB-left-container {
+  background-color: white;
+  width: 537px;
+  margin: 10px auto 0;
+  padding: 20px 10px 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgb(0 0 0 / 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.mongoDB-right-container {
+  background-image: url(images/login_desktop_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vhw;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.logo-section {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.title-section h2 {
+  font-weight: 400;
+  font-size: 34px;
+  margin-bottom: 15px;
+  text-align: left;
+  color: rgb(40, 100, 40);
+}
+
+@media screen and (max-width: 1274px) {
+    .title-section h2 {
+      font-size: 28px;
+    }
+}
+
+.signup-section {
+  font-weight: 700;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.signup-section a {
+    outline: none;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.social-login-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  margin-right: 40px;
+  padding: 0px 14px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.google-btn {
+  border: 1px solid #7a7c7e;
+  color: #3c4043;
+}
+
+.github-btn {
+  border: 1px solid #7a7c7e;
+  color: #24292f;
+}
+
+.btn-logo {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.divider-text {
+  text-align: center;
+  margin: 20px 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.email-fieldset {
+  margin-right: 40px;
+  border: none;
+  margin-bottom: 24px;
+}
+
+.email-fieldset label {
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.email-input {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px 12px;
+  border-radius: 6px;
+  border: 2px solid #d1d5db;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.email-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 3px #2563eb;
+}
+
+.submit-btn.disabled {
+  background-color: rgba(168, 167, 167, 0.39);
+  color: gray;
+  cursor: not-allowed;
+}
+
+.submit-btn.active {
+  background-color: #2563eb;
+  color: white;
+}
+
+.password-fieldset {
+  margin-right: 40px;
+  border: none;
+  display: none;
+  margin-top: 20px;
+}
+
+.password-input {
+  width: 100%;
+  padding: 12px 12px;
+  border-radius: 6px;
+  border: 2px solid #d1d5db;
+  font-size: 14px;
+  outline: none;
+  margin-top: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.password-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 3px #2563eb;
+}
+
+.forgot-password {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.forgot-password a {
+  font-size: 14px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.submit-section {
+  margin-top: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+.submit-btn {
+  background-color: rgba(168, 167, 167, 0.39);
+  color: gray;
+  padding: 10px 32px;
+  border-radius: 6px;
+  border: 0.2px solid rgba(168, 167, 167, 0.39);
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1d4ed8;
+  color: white;
+}
+
+.announcement-section {
+  padding: 65px 67px 0 67px;
+  width: 480px;
+  margin-bottom: 60px;
+}
+
+.announcement-title {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.announcement-description p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.announcement-link-desktop {
+  margin-top: 40px;
+  width: fit-content;
+  border-bottom: 2px solid white;
+}
+
+  .announcement-link-desktop {
+    display: block;    
+  }
+
+  .announcement-link-mobile {
+    display: none;
+
+  }
+
+.announcement-section a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.arrow {
+  font-size: 20px;
+}
+
+/* ------------------ Responsive Design ------------------ */
+@media (max-width: 815px) {
+  
+  .mongoDB-container {
+    flex-direction: column-reverse;
+    min-height: 0;
+  }
+
+  .mongoDB-left-container {
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .logo-section {
+  margin-top: 40px;
+  }
+
+  .btn {
+    margin-right: 0;
+  }
+
+  .email-fieldset,
+  .password-fieldset {
+    margin-right: 0;
+  }
+
+  .mongoDB-right-container {
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    height:auto;
+    width: 100%;
+    padding: 20px;
+    background-size:unset;
+    background-position:left;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .announcement-section {
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* padding: 20px; */
+    text-align: center;
+  }
+
+  .announcement-title {
+    display: none;
+  }
+
+  .announcement-description p {
+    display: none;
+  }
+
+  .announcement-link-mobile {
+    /* margin-top: 40px; */
+    width: fit-content;
+    border-bottom: 2px solid white;
+  }
+
+  .announcement-link-desktop {
+    display: none;
+  }
+
+  .announcement-link-mobile {
+    display: block;
+  }
+
+  .announcement-section a {
+      font-size: 20px;
+      font-weight: 200;
+}
+
+.arrow {
+  font-size: 20px;
+}
+}

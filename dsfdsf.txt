@@ -1,0 +1,105 @@
+                
+
+--------------------------------------------
+
+                    
+
+--------------------------------------------
+
+                        
+
+-------------------------------------------------------------
+
+                        
+
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/MongoDB_Logo.jfif" type="image/x-icon">
+    <title>Log in | MongoDB</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mongoDB-container">
+        <div class="mongoDB-left-container">
+            <div class="logo-section">
+                <!-- svg -->
+            </div>
+
+            <div class="title-section">
+                <h2>Log in to your account</h2>
+            </div>
+
+            <div class="signup-section">
+                <span>Don't have an account?<a href="#"> Sign Up</a></span>
+            </div>
+
+            <div class="logout-message">
+                <div class="logout-icon">
+                <!-- svg -->
+                </div>
+                <div class="logout-text">
+                <strong>You have successfully logged out.</strong>
+                </div>
+            </div>
+
+            <div class="social-login-buttons">
+                <button type="button" class="btn google-btn">
+                <div class="btn-logo google-logo">
+                    <!-- svg -->
+                </div>
+                <div class="btn-text">
+                    <span>Google</span>
+                </div>
+                </button>
+
+                <button type="button" class="btn github-btn">
+                <div class="btn-logo github-logo">
+                    <!-- svg -->
+                </div>
+                <div class="btn-text">
+                    <span>GitHub</span>
+                </div>
+                </button>
+            </div>
+
+            <div class="divider-text">
+                <span>Or with email and password</span>
+            </div>
+
+            <fieldset class="email-fieldset">
+                <label>Email Address
+                <div class="input-wrapper">
+                    <input type="text" class="email-input" placeholder="Enter your email">
+                    <div class="input-icon"></div>
+                </div>
+                </label>
+            </fieldset>
+
+            <footer class="submit-section">
+                <button type="submit" class="btn submit-btn">
+                <span>Next</span>
+                </button>
+            </footer>
+        </div>
+
+        <div class="mongoDB-right-container">asd</div>
+    </div>
+</body>
+</html>
