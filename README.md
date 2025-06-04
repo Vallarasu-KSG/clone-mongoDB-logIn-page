@@ -7,7 +7,7 @@ A simple clone of the MongoDB login page built with HTML and CSS.
 
 ## 📸 Screenshot
 
-![screenshot](./screenshot.png) <!-- Add a screenshot named screenshot.png in your repo -->
+![screenshot](./Images/MongoDB-LogIn-img.png) <!-- Add a screenshot named screenshot.png in your repo -->
 
 ## 🚀 Features
 
